@@ -1,0 +1,6 @@
+[package]
+name = "simple_games_rust_sdl2"
+version = "0.1.0"
+authors = ["ths13 <thomassieben2019@u.northwestern.edu>"]
+
+[dependencies]

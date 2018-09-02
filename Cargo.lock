@@ -1,0 +1,4 @@
+[[package]]
+name = "simple_games_rust_sdl2"
+version = "0.1.0"
+
