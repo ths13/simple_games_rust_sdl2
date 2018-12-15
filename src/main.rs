@@ -6,7 +6,6 @@ use sdl2::event::Event;
 use sdl2::keyboard::Keycode;
 //use sdl2::EventPump;
 //use sdl2::render::Canvas;
-
 //use std::{thread, time};
 
 // MODEL CONSTANTS
@@ -250,7 +249,7 @@ pub fn main() {
             }
         }
         //thread::sleep(time::Duration::from_millis(10));
-
+        println!("here, frame {}", frame);
         if frame >= 30 {
             simple_snake.update();
             frame = 0;
